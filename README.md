@@ -20,4 +20,15 @@ docker-compose up --scale workers=4
 ### Runnig in AWS:
 
 ##### Requirements:
-+ TODO
++ Docker running
+
+#### just planning
+```
+terraform plan --var-file global.tfvars
+```
+
+
+#### Deploy
+```
+terraform apply --var-file global.tfvars
+```
