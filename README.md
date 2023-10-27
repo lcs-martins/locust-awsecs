@@ -12,7 +12,7 @@ TF code to deploy locust in a AWS ECS stack based on fargate.
 docker-compose up
 ```
 
-#####
+##### 1 master and 4 worker
 ```
 docker-compose up --scale workers=4
 ```
